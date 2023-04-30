@@ -90,7 +90,6 @@ const MovieController = {
     },
 
     createEpisode : async( req , res) => {
-        console.log(req.body);
         try {
             const { _id , video , Episode } = req.body
             const newEpisode = await new Episodes({

@@ -32,7 +32,7 @@ var MovieSchema = new mongoose.Schema({
     comment : [
         {
             type : mongoose.Types.ObjectId,
-            ref : "User"
+            ref : "Comment"
         }
     ],
     like : {
